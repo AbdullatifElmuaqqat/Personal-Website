@@ -10988,7 +10988,7 @@ header.masthead .masthead-heading {
 }
 @media (max-width: 767px) {
   header.masthead {
-    padding-top: 10rem; /* Adjust this value to move the header down */
+    padding-top: 30rem; /* Adjust this value to move the header down */
     padding-bottom: 5rem; /* Adjust this value to add space below the header */
   }
   header.masthead .masthead-heading {
