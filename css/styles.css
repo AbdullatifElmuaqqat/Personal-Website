@@ -10970,8 +10970,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 30rem;
-    padding-bottom: 11rem;
+    padding-top: 32rem;
+    padding-bottom: 8rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.5rem;
