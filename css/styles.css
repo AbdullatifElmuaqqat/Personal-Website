@@ -10971,7 +10971,7 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 32rem;
-    padding-bottom: 8rem;
+    padding-bottom: 19rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.5rem;
@@ -10984,6 +10984,22 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: -8rem;
+  }
+}
+@media (max-width: 767px) {
+  header.masthead {
+    padding-top: 10rem; /* Adjust this value to move the header down */
+    padding-bottom: 5rem; /* Adjust this value to add space below the header */
+  }
+  header.masthead .masthead-heading {
+    font-size: 2.5rem; /* Adjust the font size for smaller screens */
+    line-height: 2.5rem; /* Adjust the line height for smaller screens */
+    margin-bottom: 1rem; /* Adjust the margin to suit smaller screens */
+  }
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    line-height: 1.5rem; /* Adjust the line height for smaller screens */
+    margin-bottom: 0.5rem; /* Adjust the margin to suit smaller screens */
   }
 }
 #portfolio .portfolio-item {
